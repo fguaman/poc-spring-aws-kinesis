@@ -1,0 +1,30 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: producer;consumer
+      bindings:
+        producer-out-0:
+          destination: test-stream
+          content-type: text/json
+          producer:
+            partitionKeyExpression: "1"
+        consumer-in-0:
+          destination: test-stream
+          content-type: text/json
+      kinesis:
+        binder:
+          auto-create-stream: true
+
+cloud:
+  aws:
+    credentials:
+      accessKey: # insert access key here
+      secretKey: # insert secret key here
+    region:
+      static: 'us-east-1'
+    stack:
+      auto: false
+logging:
+  level:
+    root: info
