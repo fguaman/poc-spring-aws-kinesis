@@ -2,6 +2,7 @@ plugins {
     id 'org.springframework.boot' version '2.6.12'
     id 'io.spring.dependency-management' version '1.0.14.RELEASE'
     id 'java'
+    id "jacoco"
     id "org.sonarqube" version "3.4.0.2513"
     id'groovy'
 }
@@ -47,5 +48,11 @@ dependencyManagement {
 
 tasks.named('test') {
     useJUnitPlatform()
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
 }
 
