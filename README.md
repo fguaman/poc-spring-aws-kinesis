@@ -1,3 +1,4 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
