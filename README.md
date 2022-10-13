@@ -7,6 +7,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=bugs)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
+![example workflow](https://github.com/fguaman/poc-spring-aws-kinesis/actions/workflows/build.yml/badge.svg)
 
 # poc-spring-spring-aws-kinesis
 
