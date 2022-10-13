@@ -3,6 +3,7 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.14.RELEASE'
     id 'java'
     id "org.sonarqube" version "3.4.0.2513"
+    id'groovy'
 }
 
 group = 'cl.guaman'
@@ -29,6 +30,12 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-stream'
     implementation 'org.springframework.cloud:spring-cloud-stream-binder-kinesis:2.2.0'
+
+    implementation platform('org.apache.groovy:groovy-bom:4.0.5')
+    implementation 'org.apache.groovy:groovy'
+    testImplementation platform("org.spockframework:spock-bom:2.3-groovy-4.0")
+    testImplementation "org.spockframework:spock-core"
+    testImplementation "org.spockframework:spock-junit4"
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
