@@ -36,8 +36,9 @@ jobs:
         run: ./gradlew build sonarqube --info
   test:
     name: Test
+    runs-on: ubuntu-latest
     steps:
-      - name: Build and analyze
+      - name: Test and Coverage
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
