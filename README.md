@@ -12,7 +12,9 @@ The purpose of the project is just to teach how to connect a springboot project 
 ## Diagrams
 ### Package
 
+```
 |- cl.guaman.pocspringawskinesis
 |-- common
 |-- domain
 |-- infrastructure
+```
