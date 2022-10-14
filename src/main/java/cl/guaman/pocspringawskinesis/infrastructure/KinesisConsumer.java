@@ -25,7 +25,6 @@ public class KinesisConsumer {
             Message message = messageJSON.toDomain(event);
             log.info("id -> {}", message.getId());
             log.info("text -> {}", message.getText());
-
         };
     }
 }

@@ -7,7 +7,7 @@ class JOBSpec extends Specification {
     private JOB job;
     private KinesisProducer kinesisProducer = Mock();
 
-    def "send message one time"() {
+    def "send message one time in job"() {
         given:
         kinesisProducer.send(_) >> {}
         job = new JOB(kinesisProducer)
