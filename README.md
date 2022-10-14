@@ -8,6 +8,7 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=fguaman_poc-spring-aws-kinesis&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=fguaman_poc-spring-aws-kinesis)
 ![example workflow](https://github.com/fguaman/poc-spring-aws-kinesis/actions/workflows/build.yml/badge.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # poc-spring-spring-aws-kinesis
 
