@@ -4,7 +4,7 @@ plugins {
     id 'java'
     id "jacoco"
     id "org.sonarqube" version "3.4.0.2513"
-    id'groovy'
+    id 'groovy'
 }
 
 group = 'cl.guaman'
@@ -59,15 +59,16 @@ tasks.withType(Test) {
 }
 
 jacocoTestReport {
-    reports {
-        xml.enabled true
-    }
+    dependsOn test
     afterEvaluate {
         classDirectories.setFrom(files(classDirectories.files.collect {
             fileTree(dir: it, exclude: [
-                    "**PocSpringAwsKinesisApplication.*"
+                    "**/PocSpringAwsKinesisApplication.*"
             ])
         }))
+    }
+    reports {
+        xml.enabled true
     }
 }
 
